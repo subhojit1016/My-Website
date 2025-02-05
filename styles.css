@@ -24,7 +24,6 @@ body {
 .page-header {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 20px 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   padding: 15px 50px;
@@ -32,6 +31,10 @@ body {
   background: white;
   width: 100%;
   top: 0;
+}
+
+.navbar-toggler{
+  border: none !important;
 }
 
 h1 {
@@ -445,7 +448,7 @@ h1 {
   height: 30px;
 }
 
-#contact {
+#contact, #conferences {
   width: 100%;
 }
 
