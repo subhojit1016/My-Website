@@ -444,3 +444,14 @@ h1 {
   width: 30px;
   height: 30px;
 }
+
+#contact {
+  width: 100%;
+}
+
+@media (max-width: 750px) {
+  .contact-links {
+      flex-direction: column;
+  }
+}
+
