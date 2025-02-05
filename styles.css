@@ -261,6 +261,7 @@ h1 {
   gap: 20px;
   flex-wrap: wrap;
   width: 100%;
+  place-content: center;
 }
 
 .skill {
